@@ -1,0 +1,873 @@
+xst -intstyle ise -ifn "/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.xst" -ofn "C:/dev/Assembler/BlockBreaker_SD2/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.xst" -ofn "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fuente/mips.ucf -p xc6slx9-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 

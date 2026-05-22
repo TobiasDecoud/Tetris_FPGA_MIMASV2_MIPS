@@ -1,0 +1,1 @@
+vhdtdtfi -prj MIPS_VGA -o /home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/divCLK100a50.vhi -module divCLK100a50 -template /media/Programas/Aplicaciones/Linux/Xilinx/14.7/ISE_DS/ISE/data/vhdlinst.tft -deleteonerror -lib work fuente/divCLK100a50.vhd 

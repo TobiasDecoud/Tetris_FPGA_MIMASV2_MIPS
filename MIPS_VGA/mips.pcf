@@ -1,0 +1,53 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu May 21 17:15:13 2026
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "rx" LOCATE = SITE "H17" LEVEL 1;
+COMP "tx" LOCATE = SITE "H18" LEVEL 1;
+COMP "reset1" LOCATE = SITE "F17" LEVEL 1;
+COMP "atn" LOCATE = SITE "J16" LEVEL 1;
+COMP "Blue<0>" LOCATE = SITE "A11" LEVEL 1;
+COMP "Blue<1>" LOCATE = SITE "B11" LEVEL 1;
+COMP "Green<0>" LOCATE = SITE "C10" LEVEL 1;
+COMP "Green<1>" LOCATE = SITE "A10" LEVEL 1;
+COMP "Green<2>" LOCATE = SITE "C11" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "M16" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "L17" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "K17" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "K18" LEVEL 1;
+COMP "hsync" LOCATE = SITE "B12" LEVEL 1;
+COMP "north" LOCATE = SITE "M18" LEVEL 1;
+COMP "south" LOCATE = SITE "L18" LEVEL 1;
+COMP "vsync" LOCATE = SITE "A12" LEVEL 1;
+COMP "siVerde" LOCATE = SITE "C18" LEVEL 1;
+COMP "salida<0>" LOCATE = SITE "T18" LEVEL 1;
+COMP "salida<1>" LOCATE = SITE "T17" LEVEL 1;
+COMP "salida<2>" LOCATE = SITE "U18" LEVEL 1;
+COMP "salida<3>" LOCATE = SITE "U17" LEVEL 1;
+COMP "salida<4>" LOCATE = SITE "N16" LEVEL 1;
+COMP "salida<5>" LOCATE = SITE "N15" LEVEL 1;
+COMP "salida<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "salida<7>" LOCATE = SITE "P15" LEVEL 1;
+COMP "Red<0>" LOCATE = SITE "A9" LEVEL 1;
+COMP "Red<1>" LOCATE = SITE "B9" LEVEL 1;
+COMP "Red<2>" LOCATE = SITE "C9" LEVEL 1;
+COMP "sevenSegmentEnable<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "sevenSegmentEnable<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "sevenSegmentEnable<2>" LOCATE = SITE "B3" LEVEL 1;
+COMP "sevenSegment<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "sevenSegment<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "sevenSegment<2>" LOCATE = SITE "A4" LEVEL 1;
+COMP "sevenSegment<3>" LOCATE = SITE "C4" LEVEL 1;
+COMP "sevenSegment<4>" LOCATE = SITE "C5" LEVEL 1;
+COMP "sevenSegment<5>" LOCATE = SITE "D6" LEVEL 1;
+COMP "sevenSegment<6>" LOCATE = SITE "C6" LEVEL 1;
+COMP "sevenSegment<7>" LOCATE = SITE "A5" LEVEL 1;
+COMP "siAzul" LOCATE = SITE "C17" LEVEL 1;
+COMP "siRojo" LOCATE = SITE "D17" LEVEL 1;
+COMP "reset0" LOCATE = SITE "F18" LEVEL 1;
+COMP "clk100mhz" LOCATE = SITE "V10" LEVEL 1;
+NET "clk100mhz_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

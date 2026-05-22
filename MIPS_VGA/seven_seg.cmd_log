@@ -1,0 +1,2 @@
+vhdtdtfi -prj MIPS_VGA -o /home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/seven_seg.vhi -module seven_seg -template /opt/Xilinx/14.7/ISE_DS/ISE/data/vhdlinst.tft -deleteonerror -lib work fuente/seven_seg.vhd 
+vhdtdtfi -prj MIPS_VGA -o /home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/seven_seg.vhi -module seven_seg -template /media/Programas/Aplicaciones/Linux/Xilinx/14.7/ISE_DS/ISE/data/vhdlinst.tft -deleteonerror -lib work fuente/seven_seg.vhd 

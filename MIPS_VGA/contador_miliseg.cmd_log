@@ -1,0 +1,1 @@
+vhdtdtfi -prj MIPS_VGA -o /home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/contador_miliseg.vhi -module contador_miliseg -template /media/Programas/Aplicaciones/Linux/Xilinx/14.7/ISE_DS/ISE/data/vhdlinst.tft -deleteonerror -lib work fuente/contador_miliseg.vhd 

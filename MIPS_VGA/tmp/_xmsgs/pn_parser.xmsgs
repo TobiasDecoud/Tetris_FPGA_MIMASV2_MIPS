@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/JR_detect.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/alu.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/alu_control.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/alu_parcial.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/antirebote.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/barrel_shifter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/contador_miliseg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/control1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/control_branch.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/control_prog.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/decodificador.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/divCLK100a50.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/divisorCLK.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/entrada.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/exten_signo_cero.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/general.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/md.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/md_io.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/mi.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/mips.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/mux32.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/mux32_4a1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/mux5_4a1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/pc.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/prog.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/reg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/salida_par.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/seven_seg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/shift_left.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/shift_left16.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/shift_left_j.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/suma_4.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/sumador32.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/uart_rx.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/uart_tx.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/vga_cont_horiz.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/vga_cont_vert.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/vga_controlador.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/vga_gen_imagen.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/vga_generador_blank.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/vga_generador_hsync.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/fuente/vga_generador_vsync.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

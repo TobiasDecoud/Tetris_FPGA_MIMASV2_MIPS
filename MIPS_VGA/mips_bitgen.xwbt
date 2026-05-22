@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.ncd
+OUTFILE=/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA
+LICENSE=WebPack
+USER_INFO=213519004_0_0_238

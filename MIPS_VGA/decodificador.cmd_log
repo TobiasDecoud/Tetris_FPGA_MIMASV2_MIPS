@@ -1,0 +1,4 @@
+vhdtdtfi -prj MIPS_VGA -o /home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/decodificador.vhi -module decodificador -template /opt/Xilinx/14.7/ISE_DS/ISE/data/vhdlinst.tft -deleteonerror -lib work fuente/decodificador.vhd 
+vhdtdtfi -prj MIPS_VGA -o /home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/decodificador.vhi -module decodificador -template /opt/Xilinx/14.7/ISE_DS/ISE/data/vhdlinst.tft -deleteonerror -lib work fuente/decodificador.vhd 
+vhdtdtfi -prj MIPS_VGA -o /home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/decodificador.vhi -module decodificador -template /media/Programas/Aplicaciones/Linux/Xilinx/14.7/ISE_DS/ISE/data/vhdlinst.tft -deleteonerror -lib work fuente/decodificador.vhd 
+vhdtdtfi -prj MIPS_VGA -o /home/maxi/Documentos/GitHub/BlockBreaker_SD2/MIPS_VGA/decodificador.vhi -module decodificador -template /media/Programas/Aplicaciones/Linux/Xilinx/14.7/ISE_DS/ISE/data/vhdlinst.tft -deleteonerror -lib work fuente/decodificador.vhd 
