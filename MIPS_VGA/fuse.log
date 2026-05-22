@@ -1,0 +1,29 @@
+Running: /home/tobias/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/prog_isim_beh.exe -prj /home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/prog_beh.prj work.prog 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/general.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/uart_tx.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/uart_rx.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/control_prog.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/prog.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 85444 KB
+Fuse CPU Usage: 880 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package general
+Compiling package numeric_std
+Compiling architecture behavioral of entity control_prog [control_prog_default]
+Compiling architecture behavioral of entity uart_tx [uart_tx_default]
+Compiling architecture behavioral of entity uart_rx [uart_rx_default]
+Compiling architecture behavioral of entity prog
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable /home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/prog_isim_beh.exe
+Fuse Memory Usage: 1708032 KB
+Fuse CPU Usage: 930 ms
+GCC CPU Usage: 1440 ms

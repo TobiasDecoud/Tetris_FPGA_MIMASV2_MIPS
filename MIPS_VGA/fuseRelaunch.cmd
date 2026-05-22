@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/prog_isim_beh.exe" -prj "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/prog_beh.prj" "work.prog" 

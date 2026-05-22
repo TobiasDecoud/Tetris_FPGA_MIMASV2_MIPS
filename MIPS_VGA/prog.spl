@@ -1,0 +1,12 @@
+[Inputs]
+clk
+rx
+Atn
+=dataDeMI[31:0]=
+[Outputs]
+writeMI
+rstMIPS
+tx
+=dataAMI[31:0]=
+=dirMI[8:0]=
+[BiDir]

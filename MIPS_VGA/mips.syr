@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.02 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.02 secs
  
 --> 
 Reading design: mips.prj
@@ -108,130 +108,130 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_gen_imagen.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_gen_imagen.vhd" into library work
 Parsing entity <image_generator>.
 Parsing architecture <Behavioral> of entity <image_generator>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_generador_vsync.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_generador_vsync.vhd" into library work
 Parsing entity <generador_vsync>.
 Parsing architecture <comportamiento> of entity <generador_vsync>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_generador_hsync.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_generador_hsync.vhd" into library work
 Parsing entity <generador_hsync>.
 Parsing architecture <comportamiento> of entity <generador_hsync>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_generador_blank.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_generador_blank.vhd" into library work
 Parsing entity <generador_blank>.
 Parsing architecture <Behavioral> of entity <generador_blank>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_cont_vert.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_cont_vert.vhd" into library work
 Parsing entity <contador_vertical>.
 Parsing architecture <comportamiento> of entity <contador_vertical>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_cont_horiz.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_cont_horiz.vhd" into library work
 Parsing entity <contador_horizontal>.
 Parsing architecture <comportamiento> of entity <contador_horizontal>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/general.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/general.vhd" into library work
 Parsing package <general>.
 Parsing package body <general>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_controlador.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_controlador.vhd" into library work
 Parsing entity <vga_controlador>.
 Parsing architecture <Behavioral> of entity <vga_controlador>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/uart_tx.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/uart_tx.vhd" into library work
 Parsing entity <uart_tx>.
 Parsing architecture <Behavioral> of entity <uart_tx>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/uart_rx.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/uart_rx.vhd" into library work
 Parsing entity <uart_rx>.
 Parsing architecture <Behavioral> of entity <uart_rx>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/seven_seg.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/seven_seg.vhd" into library work
 Parsing entity <seven_seg>.
 Parsing architecture <Behavioral> of entity <seven_seg>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/salida_par.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/salida_par.vhd" into library work
 Parsing entity <salida_par>.
 Parsing architecture <Behavioral> of entity <salida_par>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/md.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/md.vhd" into library work
 Parsing entity <md>.
 Parsing architecture <Behavioral> of entity <md>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/entrada.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/entrada.vhd" into library work
 Parsing entity <entrada>.
 Parsing architecture <Behavioral> of entity <entrada>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/decodificador.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/decodificador.vhd" into library work
 Parsing entity <decodificador>.
 Parsing architecture <Behavioral> of entity <decodificador>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/control_prog.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/control_prog.vhd" into library work
 Parsing entity <control_prog>.
 Parsing architecture <Behavioral> of entity <control_prog>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/contador_miliseg.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/contador_miliseg.vhd" into library work
 Parsing entity <contador_miliseg>.
 Parsing architecture <Behavioral> of entity <contador_miliseg>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/barrel_shifter.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/barrel_shifter.vhd" into library work
 Parsing entity <barrel_shifter>.
 Parsing architecture <RTL> of entity <barrel_shifter>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/alu_parcial.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/alu_parcial.vhd" into library work
 Parsing entity <alu_parcial>.
 Parsing architecture <Behavioral> of entity <alu_parcial>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/suma_4.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/suma_4.vhd" into library work
 Parsing entity <suma_4>.
 Parsing architecture <Behavioral> of entity <suma_4>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/sumador32.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/sumador32.vhd" into library work
 Parsing entity <sumador32>.
 Parsing architecture <Behavioral> of entity <sumador32>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/shift_left_j.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/shift_left_j.vhd" into library work
 Parsing entity <shift_left_j>.
 Parsing architecture <Behavioral> of entity <shift_left_j>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/shift_left16.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/shift_left16.vhd" into library work
 Parsing entity <shift_left16>.
 Parsing architecture <Behavioral> of entity <shift_left16>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/shift_left.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/shift_left.vhd" into library work
 Parsing entity <shift_left>.
 Parsing architecture <Behavioral> of entity <shift_left>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/reg.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/reg.vhd" into library work
 Parsing entity <reg>.
 Parsing architecture <Behavioral> of entity <reg>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/prog.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/prog.vhd" into library work
 Parsing entity <prog>.
 Parsing architecture <Behavioral> of entity <prog>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/pc.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/pc.vhd" into library work
 Parsing entity <pc>.
 Parsing architecture <Behavioral> of entity <pc>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mux5_4a1.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mux5_4a1.vhd" into library work
 Parsing entity <mux5_4a1>.
 Parsing architecture <Behavioral> of entity <mux5_4a1>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mux32_4a1.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mux32_4a1.vhd" into library work
 Parsing entity <mux32_4a1>.
 Parsing architecture <Behavioral> of entity <mux32_4a1>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mux32.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mux32.vhd" into library work
 Parsing entity <mux32>.
 Parsing architecture <Behavioral> of entity <mux32>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mi.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mi.vhd" into library work
 Parsing entity <mi>.
 Parsing architecture <Behavioral> of entity <mi>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/md_io.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/md_io.vhd" into library work
 Parsing entity <md_io>.
 Parsing architecture <Behavioral> of entity <md_io>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/JR_detect.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/JR_detect.vhd" into library work
 Parsing entity <JR_detect>.
 Parsing architecture <Behavioral> of entity <jr_detect>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/exten_signo_cero.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/exten_signo_cero.vhd" into library work
 Parsing entity <exten_signo_cero>.
 Parsing architecture <Behavioral> of entity <exten_signo_cero>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/divisorCLK.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/divisorCLK.vhd" into library work
 Parsing entity <divisorCLK>.
 Parsing architecture <Behavioral> of entity <divisorclk>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/divCLK100a50.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/divCLK100a50.vhd" into library work
 Parsing entity <divCLK100a50>.
 Parsing architecture <Behavioral> of entity <divclk100a50>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/control_branch.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/control_branch.vhd" into library work
 Parsing entity <control_branch>.
 Parsing architecture <Behavioral> of entity <control_branch>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/control1.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/control1.vhd" into library work
 Parsing entity <control1>.
 Parsing architecture <Behavioral> of entity <control1>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/antirebote.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/antirebote.vhd" into library work
 Parsing entity <antirebote>.
 Parsing architecture <Behavioral> of entity <antirebote>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/alu_control.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/alu_control.vhd" into library work
 Parsing entity <alu_control>.
 Parsing architecture <Behavioral> of entity <alu_control>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/alu.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/alu.vhd" into library work
 Parsing entity <alu>.
 Parsing architecture <Behavioral> of entity <alu>.
-Parsing VHDL file "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mips.vhd" into library work
+Parsing VHDL file "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mips.vhd" into library work
 Parsing entity <mips>.
 Parsing architecture <Behavioral> of entity <mips>.
 
@@ -244,14 +244,14 @@ Elaborating entity <mips> (architecture <Behavioral>) from library <work>.
 Elaborating entity <prog> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <control_prog> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/control_prog.vhd" Line 410. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/control_prog.vhd" Line 410. Case statement is complete. others clause is never selected
 
 Elaborating entity <uart_tx> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/uart_tx.vhd" Line 194. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/uart_tx.vhd" Line 194. Case statement is complete. others clause is never selected
 
 Elaborating entity <uart_rx> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/uart_rx.vhd" Line 160. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/uart_rx.vhd" Line 188. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/uart_rx.vhd" Line 160. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/uart_rx.vhd" Line 188. Case statement is complete. others clause is never selected
 
 Elaborating entity <divisorCLK> (architecture <Behavioral>) from library <work>.
 
@@ -286,9 +286,9 @@ Elaborating entity <entrada> (architecture <Behavioral>) from library <work>.
 Elaborating entity <decodificador> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <md> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/md.vhd" Line 95. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/md.vhd" Line 117. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/md.vhd" Line 159. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/md.vhd" Line 95. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/md.vhd" Line 117. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/md.vhd" Line 159. Case statement is complete. others clause is never selected
 
 Elaborating entity <salida_par> (architecture <Behavioral>) from library <work>.
 
@@ -333,19 +333,19 @@ Elaborating entity <divCLK100a50> (architecture <Behavioral>) from library <work
 =========================================================================
 
 Synthesizing Unit <mips>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mips.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mips.vhd".
     Summary:
 	inferred   3 Multiplexer(s).
 Unit <mips> synthesized.
 
 Synthesizing Unit <prog>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/prog.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/prog.vhd".
     Summary:
 	no macro.
 Unit <prog> synthesized.
 
 Synthesizing Unit <control_prog>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/control_prog.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/control_prog.vhd".
     Found 9-bit register for signal <dirMIreg>.
     Found 16-bit register for signal <cantMSBLSB>.
     Found 8-bit register for signal <pal<3>>.
@@ -378,7 +378,7 @@ Synthesizing Unit <control_prog>.
 Unit <control_prog> synthesized.
 
 Synthesizing Unit <uart_tx>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/uart_tx.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/uart_tx.vhd".
     Found 11-bit register for signal <cont_ciclos>.
     Found 4-bit register for signal <cont_bits>.
     Found 2-bit register for signal <state>.
@@ -408,7 +408,7 @@ Synthesizing Unit <uart_tx>.
 Unit <uart_tx> synthesized.
 
 Synthesizing Unit <uart_rx>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/uart_rx.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/uart_rx.vhd".
     Found 11-bit register for signal <cont_ciclos>.
     Found 4-bit register for signal <cont_bits>.
     Found 2-bit register for signal <state>.
@@ -438,21 +438,21 @@ Synthesizing Unit <uart_rx>.
 Unit <uart_rx> synthesized.
 
 Synthesizing Unit <divisorCLK>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/divisorCLK.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/divisorCLK.vhd".
     Found 1-bit register for signal <tmp>.
     Summary:
 	inferred   1 D-type flip-flop(s).
 Unit <divisorCLK> synthesized.
 
 Synthesizing Unit <antirebote>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/antirebote.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/antirebote.vhd".
     Found 1-bit register for signal <reset>.
     Summary:
 	inferred   1 D-type flip-flop(s).
 Unit <antirebote> synthesized.
 
 Synthesizing Unit <pc>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/pc.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/pc.vhd".
     Found 32-bit register for signal <s>.
     Summary:
 	inferred  32 D-type flip-flop(s).
@@ -460,27 +460,27 @@ Synthesizing Unit <pc>.
 Unit <pc> synthesized.
 
 Synthesizing Unit <suma_4>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/suma_4.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/suma_4.vhd".
     Found 32-bit adder for signal <s> created at line 38.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 Unit <suma_4> synthesized.
 
 Synthesizing Unit <mi>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mi.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mi.vhd".
     Found 512x32-bit dual-port RAM <Mram_mi> for signal <mi>.
     Summary:
 	inferred   1 RAM(s).
 Unit <mi> synthesized.
 
 Synthesizing Unit <mux5_4a1>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mux5_4a1.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mux5_4a1.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux5_4a1> synthesized.
 
 Synthesizing Unit <reg>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/reg.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/reg.vhd".
     Found 32-bit register for signal <reg<1>>.
     Found 32-bit register for signal <reg<2>>.
     Found 32-bit register for signal <reg<3>>.
@@ -526,19 +526,19 @@ INFO:Xst:3019 - HDL ADVISOR - 1024 flip-flops were inferred for signal <reg>. Yo
 Unit <reg> synthesized.
 
 Synthesizing Unit <shift_left16>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/shift_left16.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/shift_left16.vhd".
     Summary:
 	no macro.
 Unit <shift_left16> synthesized.
 
 Synthesizing Unit <alu>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/alu.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/alu.vhd".
     Summary:
 	inferred   5 Multiplexer(s).
 Unit <alu> synthesized.
 
 Synthesizing Unit <alu_parcial>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/alu_parcial.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/alu_parcial.vhd".
     Found 32-bit adder for signal <n0037> created at line 56.
     Found 32-bit adder for signal <suma> created at line 56.
     Found 32-bit comparator greater for signal <op2[31]_op1[31]_LessThan_9_o> created at line 71
@@ -550,7 +550,7 @@ Synthesizing Unit <alu_parcial>.
 Unit <alu_parcial> synthesized.
 
 Synthesizing Unit <barrel_shifter>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/barrel_shifter.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/barrel_shifter.vhd".
     Found 32-bit shifter arithmetic right for signal <e[31]_control[4]_shift_right_3_OUT> created at line 47
     Found 32-bit shifter logical right for signal <e[31]_control[4]_shift_right_5_OUT> created at line 46
     Found 32-bit shifter logical left for signal <e[31]_control[4]_shift_left_7_OUT> created at line 45
@@ -561,37 +561,37 @@ Synthesizing Unit <barrel_shifter>.
 Unit <barrel_shifter> synthesized.
 
 Synthesizing Unit <exten_signo_cero>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/exten_signo_cero.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/exten_signo_cero.vhd".
     Summary:
 	inferred   2 Multiplexer(s).
 Unit <exten_signo_cero> synthesized.
 
 Synthesizing Unit <control_branch>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/control_branch.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/control_branch.vhd".
     Summary:
 	no macro.
 Unit <control_branch> synthesized.
 
 Synthesizing Unit <md_io>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/md_io.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/md_io.vhd".
     Summary:
 	inferred   4 Multiplexer(s).
 Unit <md_io> synthesized.
 
 Synthesizing Unit <entrada>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/entrada.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/entrada.vhd".
     Summary:
 	no macro.
 Unit <entrada> synthesized.
 
 Synthesizing Unit <decodificador>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/decodificador.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/decodificador.vhd".
     Summary:
 	no macro.
 Unit <decodificador> synthesized.
 
 Synthesizing Unit <md>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/md.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/md.vhd".
     Found 512x8-bit single-port RAM <Mram_mem01> for signal <mem01>.
     Found 512x8-bit single-port RAM <Mram_mem00> for signal <mem00>.
     Found 512x8-bit single-port RAM <Mram_mem11> for signal <mem11>.
@@ -607,14 +607,14 @@ Synthesizing Unit <md>.
 Unit <md> synthesized.
 
 Synthesizing Unit <salida_par>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/salida_par.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/salida_par.vhd".
     Found 8-bit register for signal <salida>.
     Summary:
 	inferred   8 D-type flip-flop(s).
 Unit <salida_par> synthesized.
 
 Synthesizing Unit <seven_seg>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/seven_seg.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/seven_seg.vhd".
     Found 15-bit register for signal <contadorclk>.
     Found 1-bit register for signal <clkreduc>.
     Found 4-bit register for signal <C>.
@@ -683,13 +683,13 @@ Synthesizing Unit <seven_seg>.
 Unit <seven_seg> synthesized.
 
 Synthesizing Unit <vga_controlador>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_controlador.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_controlador.vhd".
     Summary:
 	no macro.
 Unit <vga_controlador> synthesized.
 
 Synthesizing Unit <contador_horizontal>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_cont_horiz.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_cont_horiz.vhd".
     Found 11-bit register for signal <h_cuenta_int>.
     Found 11-bit adder for signal <h_cuenta_int[10]_GND_34_o_add_2_OUT> created at line 52.
     Summary:
@@ -699,7 +699,7 @@ Synthesizing Unit <contador_horizontal>.
 Unit <contador_horizontal> synthesized.
 
 Synthesizing Unit <contador_vertical>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_cont_vert.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_cont_vert.vhd".
     Found 1-bit register for signal <hsync_t_1>.
     Found 10-bit register for signal <v_cuenta_int>.
     Found 1-bit register for signal <hsync_s>.
@@ -711,7 +711,7 @@ Synthesizing Unit <contador_vertical>.
 Unit <contador_vertical> synthesized.
 
 Synthesizing Unit <generador_blank>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_generador_blank.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_generador_blank.vhd".
     Found 11-bit comparator lessequal for signal <n0002> created at line 45
     Found 11-bit comparator lessequal for signal <n0004> created at line 45
     Found 10-bit comparator lessequal for signal <n0007> created at line 45
@@ -721,14 +721,14 @@ Synthesizing Unit <generador_blank>.
 Unit <generador_blank> synthesized.
 
 Synthesizing Unit <generador_hsync>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_generador_hsync.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_generador_hsync.vhd".
     Found 1-bit register for signal <hsync_aux>.
     Summary:
 	inferred   1 D-type flip-flop(s).
 Unit <generador_hsync> synthesized.
 
 Synthesizing Unit <generador_vsync>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_generador_vsync.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_generador_vsync.vhd".
     Found 1-bit register for signal <vsync>.
     Found 10-bit comparator lessequal for signal <n0001> created at line 44
     Found 10-bit comparator lessequal for signal <n0003> created at line 44
@@ -738,7 +738,7 @@ Synthesizing Unit <generador_vsync>.
 Unit <generador_vsync> synthesized.
 
 Synthesizing Unit <image_generator>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/vga_gen_imagen.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/vga_gen_imagen.vhd".
     Register <R> equivalent to <G> has been removed
     Register <B> equivalent to <G> has been removed
     Found 1-bit register for signal <G>.
@@ -820,7 +820,7 @@ INFO:Xst:3019 - HDL ADVISOR - 1024 flip-flops were inferred for signal <videoBuf
 Unit <image_generator> synthesized.
 
 Synthesizing Unit <contador_miliseg>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/contador_miliseg.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/contador_miliseg.vhd".
     Found 15-bit register for signal <contador>.
     Found 32-bit register for signal <Milisegundos>.
     Found 15-bit adder for signal <contador[14]_GND_40_o_add_3_OUT> created at line 1241.
@@ -834,57 +834,57 @@ Synthesizing Unit <contador_miliseg>.
 Unit <contador_miliseg> synthesized.
 
 Synthesizing Unit <mux32>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mux32.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mux32.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux32> synthesized.
 
 Synthesizing Unit <mux32_4a1>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/mux32_4a1.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/mux32_4a1.vhd".
     Found 32-bit 4-to-1 multiplexer for signal <s> created at line 38.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux32_4a1> synthesized.
 
 Synthesizing Unit <shift_left>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/shift_left.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/shift_left.vhd".
     Summary:
 	no macro.
 Unit <shift_left> synthesized.
 
 Synthesizing Unit <shift_left_j>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/shift_left_j.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/shift_left_j.vhd".
     Summary:
 	no macro.
 Unit <shift_left_j> synthesized.
 
 Synthesizing Unit <sumador32>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/sumador32.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/sumador32.vhd".
     Found 32-bit adder for signal <s> created at line 39.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 Unit <sumador32> synthesized.
 
 Synthesizing Unit <alu_control>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/alu_control.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/alu_control.vhd".
     Summary:
 	inferred  13 Multiplexer(s).
 Unit <alu_control> synthesized.
 
 Synthesizing Unit <JR_detect>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/JR_detect.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/JR_detect.vhd".
     Summary:
 	no macro.
 Unit <JR_detect> synthesized.
 
 Synthesizing Unit <control1>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/control1.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/control1.vhd".
     Summary:
 	inferred  15 Multiplexer(s).
 Unit <control1> synthesized.
 
 Synthesizing Unit <divCLK100a50>.
-    Related source file is "/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/fuente/divCLK100a50.vhd".
+    Related source file is "/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/fuente/divCLK100a50.vhd".
     Found 1-bit register for signal <tmp>.
     Summary:
 	inferred   1 D-type flip-flop(s).
@@ -1687,13 +1687,13 @@ clk100mhz      |    1.913|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 31.00 secs
-Total CPU time to Xst completion: 30.46 secs
+Total REAL time to Xst completion: 18.00 secs
+Total CPU time to Xst completion: 18.12 secs
  
 --> 
 
 
-Total memory usage is 430200 kilobytes
+Total memory usage is 429968 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

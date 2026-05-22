@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="mips">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2026-5-22T17:27:22</timestamp>
+    <pin polarity="Input" x="0" y="-672" name="clk100mhz" />
+    <pin polarity="Input" x="0" y="-608" name="reset1" />
+    <pin polarity="Input" x="0" y="-544" name="reset0" />
+    <pin polarity="Input" x="0" y="-480" name="north" />
+    <pin polarity="Input" x="0" y="-416" name="south" />
+    <pin polarity="Input" x="0" y="-352" name="rx" />
+    <pin polarity="Input" x="0" y="-288" name="atn" />
+    <pin polarity="Input" x="0" y="-224" name="siRojo" />
+    <pin polarity="Input" x="0" y="-160" name="siVerde" />
+    <pin polarity="Input" x="0" y="-96" name="siAzul" />
+    <pin polarity="Input" x="0" y="-32" name="sw(3:0)" />
+    <pin polarity="Output" x="512" y="-672" name="tx" />
+    <pin polarity="Output" x="512" y="-592" name="hsync" />
+    <pin polarity="Output" x="512" y="-512" name="vsync" />
+    <pin polarity="Output" x="512" y="-432" name="salida(7:0)" />
+    <pin polarity="Output" x="512" y="-352" name="sevenSegment(7:0)" />
+    <pin polarity="Output" x="512" y="-272" name="sevenSegmentEnable(2:0)" />
+    <pin polarity="Output" x="512" y="-192" name="Red(2:0)" />
+    <pin polarity="Output" x="512" y="-112" name="Green(2:0)" />
+    <pin polarity="Output" x="512" y="-32" name="Blue(1:0)" />
+    <graph>
+        <rect width="384" x="64" y="-704" height="704" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="256" y="-712" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin clk100mhz" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin reset1" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin reset0" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin north" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin south" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin rx" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin atn" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin siRojo" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin siVerde" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin siAzul" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin sw(3:0)" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-672" type="pin tx" />
+        <line x2="512" y1="-672" y2="-672" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-592" type="pin hsync" />
+        <line x2="512" y1="-592" y2="-592" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-512" type="pin vsync" />
+        <line x2="512" y1="-512" y2="-512" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-432" type="pin salida(7:0)" />
+        <rect width="64" x="448" y="-444" height="24" />
+        <line x2="512" y1="-432" y2="-432" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-352" type="pin sevenSegment(7:0)" />
+        <rect width="64" x="448" y="-364" height="24" />
+        <line x2="512" y1="-352" y2="-352" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-272" type="pin sevenSegmentEnable(2:0)" />
+        <rect width="64" x="448" y="-284" height="24" />
+        <line x2="512" y1="-272" y2="-272" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-192" type="pin Red(2:0)" />
+        <rect width="64" x="448" y="-204" height="24" />
+        <line x2="512" y1="-192" y2="-192" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-112" type="pin Green(2:0)" />
+        <rect width="64" x="448" y="-124" height="24" />
+        <line x2="512" y1="-112" y2="-112" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-32" type="pin Blue(1:0)" />
+        <rect width="64" x="448" y="-44" height="24" />
+        <line x2="512" y1="-32" y2="-32" x1="448" />
+    </graph>
+</symbol>

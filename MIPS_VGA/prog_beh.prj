@@ -1,0 +1,5 @@
+vhdl work "fuente/general.vhd"
+vhdl work "fuente/uart_tx.vhd"
+vhdl work "fuente/uart_rx.vhd"
+vhdl work "fuente/control_prog.vhd"
+vhdl work "fuente/prog.vhd"

@@ -6,7 +6,7 @@ Command Line: /home/tobias/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild
 mips.ngc mips.ngd
 
 Reading NGO file
-"/home/tobias/Descargas/BlockBreaker_SD2-main/MIPS_VGA/mips.ngc" ...
+"/home/tobias/Documentos/github/TETRIS_VERSIONFINAL/MIPS_VGA/mips.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -35,7 +35,7 @@ NGDBUILD Design Results Summary:
 Total memory usage is 419332 kilobytes
 
 Writing NGD file "mips.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
 
 Writing NGDBUILD log file "mips.bld"...
